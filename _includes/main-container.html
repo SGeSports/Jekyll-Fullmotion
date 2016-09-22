@@ -1,0 +1,24 @@
+<!-- Main -->
+	<div id="main">
+		<div class="inner">
+
+		<!-- Boxes -->
+			<div class="thumbnails">
+				{% for post in site.posts limit:6 %}
+				{% capture modulo %}{{ forloop.index0 | modulo:3 }}{% endcapture %}
+				<div class="box">
+					<a href="{{ post.video_url }}" class="image fit"><img src="{{ site.baseurl }}/{{ post.image_url }}" alt="" /></a>
+					<div class="inner">
+						<h3>{{ post.title }}</h3>
+						<p>{{ post.short_description }}</p>
+						<a href="{{ post.video_url }}" class="button 
+						{% if modulo == '1' %} style2 fit 
+						{% elsif modulo == '2' %} style3 fit 
+						{% else %}fit{% endif %} 
+						" data-poptrox="youtube,800x400">Watch</a>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
