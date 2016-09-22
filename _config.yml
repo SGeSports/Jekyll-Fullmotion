@@ -1,0 +1,44 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Jekyll-Fullmotion
+email: connect@saiashirwad.com
+description: > # this means to ignore newlines until "baseurl:"
+  A full responsive video gallery template with a functional video lightbox.
+baseurl: "/Jekyll-Fullmotion" # the subpath of your site, e.g. /blog
+url: "https://saiashirwadinformatia.gitlab.io/Jekyll-Fullmotion" # the base hostname & protocol for your site
+gitlab_url: "https://gitlab.com/SaiAshirwadInformatia/Jekyll-Fullmotion"
+
+social_links:
+  facebook_url: https://facebook.com/SaiAshirwadInformatia
+  twitter_url: https://twitter.com/SaiAshirwadInfo/
+  instagram_url: instagram.com/SaiAshirwadInfo
+  email: information@saiashirwad.com
+  
+gems:
+  - jekyll-bower
+
+# Build settings
+markdown: kramdown
+
+
+exclude:
+  - "jekyll-fullmotion.gemspec"
+  - "README.md"
+  - "Gemfile.lock"
+  - "Gemfile"
+  - "bower.json"
+
+excerpt_separator: <!--more-->
