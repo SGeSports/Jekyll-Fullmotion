@@ -42,6 +42,5 @@ exclude:
   - "README.md"
   - "Gemfile.lock"
   - "Gemfile"
-  - "bower.json"
 
 excerpt_separator: <!--more-->
