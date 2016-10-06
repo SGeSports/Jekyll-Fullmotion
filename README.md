@@ -44,6 +44,14 @@ To add posts to your website, create `_posts` folder under root directory. Creat
 
 Update `social_links` in `_config.yml` file according to your social account url.
 
+```yaml
+social_links:
+  facebook_url: https://facebook.com/SaiAshirwadInformatia
+  twitter_url: https://twitter.com/SaiAshirwadInfo/
+  instagram_url: instagram.com/SaiAshirwadInfo
+  email: information@saiashirwad.com
+```
+
 
 ## Contributing
 

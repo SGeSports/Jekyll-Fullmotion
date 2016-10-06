@@ -30,6 +30,9 @@ social_links:
 gems:
   - jekyll-bower
 
+bower:
+  fullmotion: "https://templated.co/fullmotion/download"
+
 # Build settings
 markdown: kramdown
 
