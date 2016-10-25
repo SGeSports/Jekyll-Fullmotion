@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A full responsive video gallery template with a functional video lightbox.
 baseurl: "/Jekyll-Fullmotion" # the subpath of your site, e.g. /blog
 url: "https://saiashirwadinformatia.gitlab.io/Jekyll-Fullmotion" # the base hostname & protocol for your site
-gitlab_url: "https://gitlab.com/SaiAshirwadInformatia/Jekyll-Fullmotion"
+gitlab_url: "https://gitlab.com/cpatil/Jekyll-Fullmotion"
 
 social_links:
   facebook_url: https://facebook.com/SaiAshirwadInformatia
